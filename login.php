@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <html>
 <head>
-  <title>🚀 PEMILU RAYA ORSATRENS TEBUIRENG MASA KHIDMAT 2024/2025</title>
+  <title>🚀 PEMILU RAYA ORSATRENS TEBUIRENG MASA KHIDMAT 2025/2026</title>
   <link rel="stylesheet" href="style\style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/jpg" href="logo.jpg">
@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
   <div class="container">
     <h2 class="title">PEMILU RAYA</h2>  
-    <h2 class ="subtitle">ORSATRENS TEBUIRENG MASA KHIDMAT 2024/2025</h2>
+    <h2 class ="subtitle">ORSATRENS TEBUIRENG MASA KHIDMAT 2025/2026</h2>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         <input type="text" id="username" placeholder="Username" name="username" required value="<?php echo htmlspecialchars($username); ?>"><br>
         <input type="password" id="password" placeholder="Password" name="password" required value="<?php echo htmlspecialchars($password); ?>"><br>
