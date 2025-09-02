@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>🚀 PEMILU RAYA ORSATRENS TEBUIRENG MASA KHIDMAT 2024/2025</title>
+    <title>🚀 PEMILU RAYA ORSATRENS TEBUIRENG MASA KHIDMAT 2025/2026</title>
     <link rel="stylesheet" href="style/style2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="logo.jpg">
@@ -20,7 +20,7 @@
 
 <div class="wrapper">
     <div class="title">
-        Pilih presiden-wakil presiden ORSATRENS TEBUIRENG Masa Khidmat 2024/2025
+        Pilih presiden-wakil presiden ORSATRENS TEBUIRENG Masa Khidmat 2025/2026
     </div>
     <form method="post" action="submit_response.php" onsubmit="return validateForm()">
         <div class="container">
@@ -28,9 +28,9 @@
             <input type="checkbox" class="checkbox" name="question" value="Paslon Nomor 1" id="question1" onclick="uncheckOtherCheckbox('question2')">
                 <div class="option_inner kandidat_1">
                     <div class="image">
-                        <img src="style/1cowo.jpg" alt="Facebook">
+                        <img src="style/11cowo.jpg" alt="Facebook">
                     </div>
-                    <div class="name">Rezvan Fardad & Arka Nur Bawono</div>
+                    <div class="name">ORANG GANTENG & GANTENG</div>
                     <button type="button" onclick="showCandidateInfo(1)">Tentang Paslon 01</button>
                 </div>
             </label>
@@ -38,9 +38,9 @@
                 <input type="checkbox" class="checkbox" name="question" value="Paslon Nomor 2" id="question2" onclick="uncheckOtherCheckbox('question1')">
                 <div class="option_inner kandidat_2">
                     <div class="image">
-                        <img src="style/2cowo.jpg" alt="">
+                        <img src="style/22cowo.jpg" alt="">
                     </div>
-                    <div class="name">Robith Assabiq & Izzi Uqba</div>
+                    <div class="name">ORANG GANTENG & GANTENG</div>
                     <button type="button" onclick="showCandidateInfo(2)">Tentang Paslon 02</button>
                 </div>
             </label>
@@ -82,26 +82,26 @@
         1: `
     <div style='padding: 20px;'>
         <p style='text-align: center;'><strong>VISI</strong></p>
-        <p style='text-align: center;'><em>Menjadikan ORSATRENS TEBUIRENG sebagai sarana pengembangan potensi akademik dan non akademik yang berkualitas, berprestasi, dan berdaya saing tinggi dengan berlandaskan al-qur'an dan sains</em></p>
+        <p style='text-align: center;'><em>INI VISI</em></p>
         <br>
         <p style='text-align: center;'><strong>MISI</strong></p>
         <ul style='text-align: justify; padding: 0;'>
-            <li>Meningkatkan prestasi dan mengembangkan bakat siswa melalui program kerja ORSATRENS TEBUIRENG</li>
-            <li>Menjalin hubungan yang harmonis dengan seluruh warga sekolah dan pondok dalam setiap program kerja maupun keseharian</li>
-            <li>Menyalurkan aspirasi para siswa agar tercipta keterbukaan dalam lingkungan sekolah dan pondok</li>
+            <li>INI</li>
+            <li>MISI</li>
+            <li>PASLON 1</li>
         </ul>
     </div>
         `,
         2: `
 <div style='padding: 20px;'>
     <p style='text-align: center; margin-top=0px;'><strong>VISI</strong></p>
-    <p style='text-align: center;'><em>Menjadi organisasi siswa yang aktif dan penuh dedikasi tinggi dalam menciptakan lingkungan sekolah yang inovatif, harmonis, dan berprestasi melalui semangat kekeluargaan dan pengabdian.</em></p>
+    <p style='text-align: center;'><em>INI VISI</em></p>
     <br>
     <p style='text-align: center;'><strong>MISI</strong></p>
     <ul style='text-align: justify; padding: 0;'>
-        <li>Mewujudkan rasa kekeluargaan antar anggota sehingga kinerja ORSATRENS TEBUIRENG lebih optimal</li>
-        <li>Menciptakan lingkungan yang aktif dalam meraih tujuan yang baik</li>
-        <li>Membentuk pola pikir siswa yang terbuka dan kreatif dalam meraih prestasi</li>
+        <li>INI</li>
+        <li>MISI</li>
+        <li>PASLON 2</li>
     </ul>
 </div>
 `
