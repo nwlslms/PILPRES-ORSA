@@ -54,12 +54,12 @@ session_destroy();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" type="image/jpg" href="logo.jpg">
-    <title>Thank You</title>
+    <title>🚀 PEMILU RAYA ORSATRENS TEBUIRENG MASA KHIDMAT 2025/2026</title>
 </head>
 <body>
 <div class="container4">
     <h1>Terima Kasih, <?php echo htmlspecialchars($displayUsername); ?></h1>
-    <p>atas partisipasinya dalam Pemilu Raya ORSATRENS TEBUIRENG 2024/2025!</p>
+    <p>atas partisipasinya dalam Pemilu Raya ORSATRENS TEBUIRENG 2025/2026!</p>
     <a href="logout.php"><button type="submit">KELUAR</button></a>
 </div>
 </body>
