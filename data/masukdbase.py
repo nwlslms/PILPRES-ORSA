@@ -34,7 +34,6 @@ new_data = pd.read_excel(file_name)
 
 for index, row in new_data.iterrows():
     username = str(row['username']).strip()
-    # Tetap handle nama depan/belakang satu kata
     if 'namadepan' in row and 'namabelakang' in row:
         namadepan = str(row['namadepan']).strip()
         namabelakang = str(row['namabelakang']).strip() if pd.notna(row['namabelakang']) else ""
